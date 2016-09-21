@@ -1,7 +1,7 @@
 <?php
 	
 	//võtab ja kopeerib faili sisu
-	require("../../../config.php");
+	require("../../config.php");
 
 	//var_dump(5.5);
 		
@@ -84,7 +84,7 @@
 		
 		//echo $serverPassword;
 		
-		$database = "if16_johan";
+		$database = "if16_JohanR";
 		
 		//ühendus
 		$mysqli = new mysqli($serverHost,$serverUsername,$serverPassword,$database);
